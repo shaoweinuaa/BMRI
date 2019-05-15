@@ -31,17 +31,6 @@ for i=1:20
      labelIndex=[labelIndex,queryIndex];
     
 end
-
-result=[];
-labelInd=[];
-queryInde=[];
-labelIndex=[];
-for i=1:20
-       [result{i},queryIndex,predict_b,unLabelIndexRandom]=randomLearning(labelIndex,trainData,trainLabel,batchSize,testData,testLabel);     
-       accuracy_random(i)=result{i}.accuracy; 
-       labelIndex=[labelIndex,queryIndex];
-    
-end
 AL(k,:)=accuracyAL;
 end
 mean(AL)
