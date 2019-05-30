@@ -1,8 +1,4 @@
-This this the code for the paper "Querying Representative and Informative Super-pixels for Filament Segmentation in Bioimage"
-
-Author: Wei Shao,shaowei20022005@nuaa.edu.cn
-
-"BMRI" is a package written in Matlab and the name stands for "Batch mode active learning method by quering the most representative and informative samples". 
+A package written in Matlab and the name stands for "Batch mode active learning method by quering the most representative and informative samples". 
 
 myTest.m is the main function
 
